@@ -14,5 +14,6 @@ type Story = StoryObj<typeof Button>;
 /** This is the primary variant for the button component */
 export const Primary: Story = {
   render: () => <Button>Button</Button>,
-  name: 'Primary Button'
+  name: 'Primary Button',
+
 }
