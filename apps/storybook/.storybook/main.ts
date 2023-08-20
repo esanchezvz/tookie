@@ -1,20 +1,17 @@
 import path from 'path'
-import {StorybookConfig} from '@storybook/react-vite'
+import { StorybookConfig } from '@storybook/react-vite'
 
 const config: StorybookConfig = {
-  stories: [
-    "../stories/**/*.mdx",
-    "../stories/**/*.stories.tsx",
-  ],
+  stories: ['../stories/**/*.mdx', '../stories/**/*.stories.tsx'],
   addons: [
-    "@storybook/addon-docs",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
-    "@storybook/addon-links",
-    "@storybook/addon-onboarding",
+    '@storybook/addon-docs',
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
+    '@storybook/addon-links',
+    '@storybook/addon-onboarding',
   ],
   framework: {
-    name: "@storybook/react-vite",
+    name: '@storybook/react-vite',
     options: {},
   },
   docs: {
@@ -35,8 +32,8 @@ const config: StorybookConfig = {
           },
         ],
       },
-    };
+    }
   },
-};
+}
 
-export default config;
+export default config
